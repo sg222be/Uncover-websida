@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+
+#container {
+	max-width: 900px;
+	height: 880px;
+	overflow: auto;
+	margin: 0 auto;
+	border: 2px solid;
+}
+
+#header {
+	overflow: auto;
+	margin: 0 auto;	
+	height: 450px;
+}
+
+#header h1{
+	display:none;
+}
+
+#header {
+	margin-left: 40px;
+}
+
+
+#meny a {text-decoration:none;
+ font-size: 20px;}
+#meny a:link { color:white; }
+#meny a:visited { color:white; }
+#meny a:focus { color:white; }
+#meny a:hover { color:white; }
+#meny a:active { color:white; }
+
+#meny li {
+	display:inline;
+	display:block;
+	text-decoration:none;
+	width: 150px;
+	height: 25px;
+	border-bottom: 3px solid #0f1ec3; 
+	background-color: #293895;
+	margin: 5px;
+	float:left;	
+	text-align: center;
+	font-family: "arial", sans-serif;
+}
+
+#meny ul{
+	height: 40px;
+	width: 790px;
+	padding: 0;
+	padding-left: 110px;
+	margin: 0;
+	margin-left: auto;
+   	margin-right: auto;	
+	
+}	
+
+#meny ul li{
+	list-style-type: none;
+	display:inline;		
+}
+
+#content {
+	float: left;
+	width: 850px;
+	height: 340px;
+	border: 2px solid #dcd4e1;
+	margin-left: 20px;
+
+}
+/* Färgsättning */
+
+#container {
+	border-color: #dcd4e1;
+	
+}
+
+#header {
+	background-image: url("pics/uncover-logga.jpg");	
+}
+
