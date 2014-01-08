@@ -19,12 +19,30 @@
         	<li> <a href="../hem.html"> Hem </a></li>
             <li> <a href="kontakt.html"> Kontakt </a></li>
            	<li> <a href="omoss.html"> Om oss </a></li>
-           	<li> <a href="samples.html"> Samples </a></li>
+           	<li> <a href="samples.html"> Smakprov </a></li>
         </ul>
     </div>
     
     <div id="content">
-    <h1> Innehåll kontakt </h1>
+        <p>Ifall ni har frågor kring bokningar eller kanske något annat du vill veta om oss, så är ni välkommna att fylla i formuläret nedan eller kontakta oss via de sociala medier som listas här bredvid:
+        Vi svarar så snabbt vi kan.
+        </p>
+            <div id="contact area">
+                <form action="contactengine.php" method="post">
+                    <p for="Name">Namn:</p>
+                        <input name="Name" id="Name" type="text"></input>
+                    <p for="topic">Ämne:</p>
+                        <input name="topic" id="topic" type="text"></input>
+                    <p for="Email" id="Email">Email:</p>
+                        <input name="Email" id="Email" type="text"></inputp>
+                    <p for="Message">Medelande</p>
+                        <br></br>
+                    <textarea name="Message" id="Message" rows="20" cols="20"></textarea>
+                        <input name="submit" class="submit-button" type="submit" value="Submit"></input>
+                </form>
+                
+                
+            </div>
     </div>
     
     <div id="footer">

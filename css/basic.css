@@ -2,19 +2,25 @@
 /* CSS Document */
 
 #container {
-	max-width: 900px;
-	height: 880px;
+	max-width: 1200px;
+	height: auto;
 	overflow: auto;
 	margin: 0 auto;
-	border: 2px solid;
+	
 }
 
 #header {
 	overflow: auto;
 	margin: 0 auto;	
 	height: 450px;
+	
+	
 }
-
+#Medlem {
+    float:left;
+    margin-right:15px;
+    margin-left:15px;
+}
 #header h1{
 	display:none;
 }
@@ -61,14 +67,23 @@
 	list-style-type: none;
 	display:inline;		
 }
-
+#hello {
+    padding-left:100px;
+    padding-right:100px;
+}
 #content {
 	float: left;
-	width: 850px;
-	height: 340px;
-	border: 2px solid #dcd4e1;
-	margin-left: 20px;
+	width: auto;
+	height: auto;
+	
+	
 
+}
+h2 {
+    text-align:center;
+}
+h1 {
+    text-align:center;
 }
 /* Färgsättning */
 
@@ -78,6 +93,7 @@
 }
 
 #header {
-	background-image: url("pics/uncover-logga.jpg");	
+	background-image: url("pics/uncover-logga.jpg");
+	background-image: no-repeat
 }
 
