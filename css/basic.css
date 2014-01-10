@@ -2,7 +2,7 @@
 /* CSS Document */
 
 #container {
-	max-width: 1200px;
+	max-width: 900px;
 	height: auto;
 	overflow: auto;
 	margin: 0 auto;
@@ -44,16 +44,17 @@
 	text-decoration:none;
 	width: 150px;
 	height: 25px;
-	border-bottom: 3px solid #0f1ec3; 
+	border-bottom: 5px solid #0f1ec3; 
 	background-color: #293895;
 	margin: 5px;
 	float:left;	
 	text-align: center;
 	font-family: "arial", sans-serif;
+	margin-bottom: 0;
 }
 
 #meny ul{
-	height: 40px;
+	height: 30px;
 	width: 790px;
 	padding: 0;
 	padding-left: 110px;
@@ -65,17 +66,25 @@
 
 #meny ul li{
 	list-style-type: none;
-	display:inline;		
+	display:inline;	
+	
+}
+
+#meny li.active {
+    background-color: grey;
+    border-bottom: 5px solid grey;
+    
 }
 #hello {
-    padding-left:100px;
-    padding-right:100px;
+    padding-left:40px;
+    padding-right:40px;
 }
 #content {
 	float: left;
 	width: auto;
 	height: auto;
-	
+	border: 4px solid grey;
+	margin-top: 0;
 	
 
 }
@@ -88,12 +97,13 @@ h1 {
 /* Färgsättning */
 
 #container {
+	
 	border-color: #dcd4e1;
 	
 }
 
 #header {
 	background-image: url("pics/uncover-logga.jpg");
-	background-image: no-repeat
+	background-repeat: no-repeat;
 }
 
