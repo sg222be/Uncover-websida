@@ -11,10 +11,11 @@
 
 #header {
 	overflow: auto;
-	margin: 0 auto;	
+	
 	height: 450px;
-	
-	
+	max-width: 900;
+	 	
+
 }
 #Medlem {
     float:left;
@@ -36,7 +37,7 @@
 #meny a:visited { color:white; }
 #meny a:focus { color:white; }
 #meny a:hover { color:white; }
-#meny a:active { color:white; }
+#meny a.active { color:black; }
 
 #meny li {
 	display:inline;
@@ -44,8 +45,9 @@
 	text-decoration:none;
 	width: 150px;
 	height: 25px;
-	border-bottom: 5px solid #0f1ec3; 
-	background-color: #293895;
+	background-color: #0f1ec3; 
+	border-bottom: 5px solid #0f1ec3;
+	border-top: 5px solid #293895;
 	margin: 5px;
 	float:left;	
 	text-align: center;
@@ -73,6 +75,8 @@
 #meny li.active {
     background-color: grey;
     border-bottom: 5px solid grey;
+	border-top: 5px solid grey;
+	textcolor: black;
     
 }
 #hello {
@@ -83,8 +87,9 @@
 	float: left;
 	width: auto;
 	height: auto;
-	border: 4px solid grey;
+	border: 2px solid grey;
 	margin-top: 0;
+	margin-left: 5px;
 	
 
 }
@@ -97,13 +102,17 @@ h1 {
 /* Färgsättning */
 
 #container {
-	
+	background-color: white;
 	border-color: #dcd4e1;
 	
 }
 
 #header {
+	background-color: white;
 	background-image: url("pics/uncover-logga.jpg");
 	background-repeat: no-repeat;
 }
 
+body {
+	background-image: url("pics/collage.jpg");
+}
