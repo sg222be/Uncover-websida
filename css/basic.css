@@ -13,7 +13,7 @@
 	overflow: auto;
 	float:right;
 	margin: 0 auto;
-	margin-top: 100px;
+	margin-top: 10px;
 	height: 400px;
 	width: 99%;
 	padding-bottom: 20px;
@@ -27,7 +27,7 @@
 #länkar {
 	width: 97.5%;
 	position:relative;
-	top: -500px;	
+	margin-top: 10px;	
 	float: right;
 	text-align: right;
 	padding: 10px;
@@ -37,20 +37,56 @@
 	border-radius: 5px;
 }
 
+#contact form {
+	padding-left: 10px;
+}
+
+#contact form p{
+	padding: 2px;
+	margin: 0;
+}
+
+.cycle-slideshow { width: 60% }
+.cycle-slideshow img { width: 100%; height: auto }
+
+#slideshow { 
+	margin: 0 auto;	
+}
+
 #länkar p {
 	margin: 2px;
 }
-#Medlem {
-    float:left;
-    margin-right:15px;
-    margin-left:15px;
+
+    
 }
 #header h1{
 	display:none;
 }
+#Medlem { margin-left: 10px;
+          margin-right:10px;
+          height: 150px;
+          margin-bottom:10px;
 
-
-
+}
+#Medlem ul{ width:auto;
+            height:140px;
+            background-color: #F2F2F2;
+            margin-left: 150px;
+            margin-top: 0;
+            margin-bottom: 0;
+           list-style-type: none;
+           padding-top: 5px;
+           padding-bottom: 5px;
+    }
+#Medlem img {float: left;
+    
+}
+#Medlem ul li { padding: 3px;
+                font-family: Helvetica;
+                font-weight: bold;
+                
+                
+}
 
 #meny a {text-decoration:none;
  font-size: 20px;}
@@ -81,7 +117,7 @@
 
 #meny a{
 		font-size: 1.4em;
-		
+		display: block;
 }
 
 #meny ul{
@@ -98,9 +134,17 @@
 }	
 
 #meny ul li{
-	list-style-type: none;
-	display:inline;	
+        	list-style-type: none;
+        	display:inline;	
+        	border-top-right-radius: 8px;
+        	border-top-left-radius: 8px;
 	
+}
+
+#meny li:hover {
+	background-image:url(pics/meny-lila.png);
+	background-color: #AB2069;
+   	border-top: 2px solid #AB2069;
 }
 
 #meny li.active {
@@ -108,6 +152,7 @@
 	background-color: #4C4C4C;
    	border-top: 2px solid #4C4C4C;
 	text-color: black;
+
     
 }
 #hello {
@@ -124,11 +169,22 @@
 	margin-left: 5px;
 	border-radius: 5px;
 	background-color: white;
+	padding-bottom: 20px;
 }
 
 #content p {
 	padding: 15px;
+	text-align: center;
 }
+#Spelningar {   
+                background-color: #F2F2F2;
+
+}
+#Spelningar ul {margin-left: 100px;
+                padding-top:15px;
+}
+
+/* lila färger #B7479A (ljus) #AB2069 (mörk) */
 
 h2 {
     text-align:center;
@@ -152,6 +208,7 @@ h1 {
 	background-image: url("pics/uncover-logga.jpg");
 	background-repeat: no-repeat;
 	background-position:center;
+	background-size: contain;
 }
 
 body {

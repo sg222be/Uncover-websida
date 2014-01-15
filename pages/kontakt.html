@@ -9,14 +9,15 @@
 <body>
 
 <div id="container">
-
+       <div id="länkar">
+    	<p> Gilla oss på: <img src="../pics/facebook.png" width="30" height="30"/> <img src="../pics/Twitter.png" width="30" height="30"/> </p>
+    </div>	
+    
     <div id="header">
     	<h1> Uncover </h1>
     </div>
     
-     <div id="länkar">
-    	<p> Gilla oss på: <img src="../pics/facebook.png" width="30" height="30"/> <img src="../pics/Twitter.png" width="30" height="30"/> </p>
-    </div>	
+  
     
     <div id="meny">
     	<ul>
@@ -28,30 +29,29 @@
     </div>
     
     <div id="content">
-        <p>Ifall ni har frågor kring bokningar eller kanske något annat du vill veta om oss, så är ni välkommna att fylla i formuläret nedan eller kontakta oss via de sociala medier som listas här bredvid:
+        <p>Ifall ni har frågor kring bokningar eller kanske något annat du vill veta om oss, så är ni välkommna att fylla i formuläret nedan eller kontakta oss via de sociala medier som finns överst på sidan:
         Vi svarar så snabbt vi kan.
         </p>
-            <div id="contact area">
-                <form action="contactengine.php" method="post">
-                    <p for="Name">Namn:</p>
-                        <input name="Name" id="Name" type="text"></input>
-                    <p for="topic">Ämne:</p>
-                        <input name="topic" id="topic" type="text"></input>
-                    <p for="Email" id="Email">Email:</p>
-                        <input name="Email" id="Email" type="text"></inputp>
-                    <p for="Message">Medelande</p>
-                        <br></br>
-                    <textarea name="Message" id="Message" rows="20" cols="20"></textarea>
-                        <input name="submit" class="submit-button" type="submit" value="Submit"></input>
-                </form>
-                
-                
+         <div id="contact">
+        		<form method="post" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" enctype="text/plain"> 
+                    <p> Namn: </p>
+                    <input type="text" name="namn"> 
+                    <p> Mailadress: </p>
+                    <input type="text" name="mailadress"> 
+                    <p> Meddelande: </p>
+                    <textarea name="meddelande" rows="10" cols="50" wrap="hard"> 
+                    </textarea> 
+                    <input name="redirect" type="hidden" value="index.html"> 
+                    <input name="NEXT_URL" type="hidden" value="index.html"> <br/>
+                    <input type="submit" value="Skicka">                     
+                </form>                                
             </div>
+
     </div>
     
     <div id="footer">
     </div>
-
+    
 </div>
 
 </body>
