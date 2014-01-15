@@ -58,38 +58,39 @@
 }
 
     
-}
 #header h1{
-	display:none;
+            visibility: hidden;
 }
-#Medlem { margin-left: 10px;
+.Medlem { margin-left: 10px;
           margin-right:10px;
           height: 150px;
           margin-bottom:10px;
 
 }
-#Medlem ul{ width:auto;
+.Medlem ul{ width:auto;
             height:140px;
             background-color: #F2F2F2;
             margin-left: 150px;
             margin-top: 0;
             margin-bottom: 0;
-           list-style-type: none;
-           padding-top: 5px;
-           padding-bottom: 5px;
+            list-style-type: none;
+            padding-top: 5px;
+            padding-bottom: 5px;
     }
-#Medlem img {float: left;
+.Medlem img {float: left;
     
 }
-#Medlem ul li { padding: 3px;
+.Medlem ul li { padding: 3px;
                 font-family: Helvetica;
                 font-weight: bold;
-                
+                text-decoration:none;
+                list-style-type: none;
                 
 }
 
 #meny a {text-decoration:none;
- font-size: 20px;}
+        font-size: 20px;
+}
 #meny a:link { color:white; }
 #meny a:visited { color:white; }
 #meny a:focus { color:white; }
@@ -151,7 +152,7 @@
     background-image:url(pics/meny-vit.png);
 	background-color: #4C4C4C;
    	border-top: 2px solid #4C4C4C;
-	text-color: black;
+	
 
     
 }
@@ -173,25 +174,49 @@
 }
 
 #content p {
-	padding: 15px;
-	text-align: center;
+            background-color:#F2F2F2;
+        	padding: 15px;
+        	text-align: center;
+        	margin-left: 10px;
+            margin-right:10px;
+            margin-bottom:10px;
+            padding-top: 5px;
+            padding-bottom: 5px;
 }
-#Spelningar {   
+#Spelningar {   margin-right: 15px;
+                margin-left: 15px;
                 background-color: #F2F2F2;
+
+}
+#contact p { text-align: left;
 
 }
 #Spelningar ul {margin-left: 100px;
                 padding-top:15px;
+                padding-bottom: 15px;
+                list-style-type: none;
 }
+#Spelningar ul li dd  { font-style: italic;
+                        font-weight: normal;
 
+}
+#Spelningar ul li { font-weight:bold;
+
+}
 /* lila färger #B7479A (ljus) #AB2069 (mörk) */
+h1 {margin-right:320px;
+    margin-left:320px;
+    border-radius: 5px;
+    text-align:center;
+    
+}
+h2 {margin-right:300px;
+    margin-left:300px;
+    border-radius: 5px;  
+    text-align:center;
+    
+}
 
-h2 {
-    text-align:center;
-}
-h1 {
-    text-align:center;
-}
 /* Färgsättning */
 
 #container {
