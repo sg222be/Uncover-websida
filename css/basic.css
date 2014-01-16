@@ -1,110 +1,93 @@
 @charset "utf-8";
 /* CSS Document */
 
+/* Färgsättning */
+
+/* lila färger #B7479A (ljus) #AB2069 (mörk) */
+/* blå färg #2E2E83 */
+/* grå färger #4C4C4C (mörk) #F2F2F2 (ljus) */
+
+
 #container {
-	max-width: 900px;
-	height: auto;
-	overflow: auto;
-	margin: 0 auto;
-	border-color: #dcd4e1;
+        	max-width: 900px;
+        	height: auto;
+        	overflow: auto;
+        	margin: 0 auto;
+        	border-color: #dcd4e1;
 }
-
 #header {
-	overflow: auto;
-	float:right;
-	margin: 0 auto;
-	margin-top: 10px;
-	width: 99%;
-	padding-bottom: 20px;
-	border: 4px solid #4C4C4C;
-    height: 400px;
-	background-color: white;
-	border-radius: 5px;
-	background-image: url("pics/uncover-logga.jpg");
-	background-repeat: no-repeat;
-	background-position:center;
-	background-size: contain;
+         overflow: auto;
+         float:right;
+         margin: 0 auto;
+         margin-top: 10px;
+         width: 99%;
+         padding-bottom: 20px;
+         border: 4px solid #4C4C4C;
+         height: 400px;
+         background-color: white;
+         border-radius: 5px;
+         background-image: url("pics/uncover-logga.jpg");
+         background-repeat: no-repeat;
+         background-position:center;
+         background-size: contain;
 }
-
 #header h1{
-            visibility: hidden;
+           visibility: hidden;
 }
-
-
 #länkar {
-	width: 97.5%;
-	position:relative;
-	margin-top: 10px;	
-	float: right;
-	text-align: right;
-	padding: 10px;
-	overflow: auto;
-	margin: 0 auto;
-	background-color: #4C4C4C;
-	border-radius: 5px;
+         width: 97.5%;
+         position:relative;
+         margin-top: 10px;	
+         float: right;
+         text-align: right;
+         padding: 10px;
+         overflow: auto;
+         margin: 0 auto;
+         background-color: #4C4C4C;
+         border-radius: 5px;
 }
 #länkar p {
-	margin: 2px;
+	        margin: 2px;
 }
 #contact form {
-	padding-left: 10px;
+	            padding-left: 10px;
 }
 
 #contact form p{
-	padding: 2px;
-	margin: 0;
+            	padding: 2px;
+            	margin: 0;
 }
-
-.cycle-slideshow { width: 60% }
-.cycle-slideshow img { width: 100%; height: auto }
-
-#slideshow { 
-	margin: 0 auto;	
-}
-
-
-
-    
-
-#Medlem { margin-left: 10px;
+#Medlem { 
+          margin-left: 10px;
           margin-right:10px;
           height: 150px;
           margin-bottom:10px;
 
 }
-#Medlem ul{ width:auto;
+#Medlem ul{ 
+            width:auto;
             height:140px;
             background-color: #F2F2F2;
             margin-left: 150px;
-            
             margin-bottom: 15;
             list-style-type: none;
             padding-top: 5px;
             padding-bottom: 5px;
-    }
-#Medlem img {float: left;
-             
-             
 }
-
-
-
-#Medlem img {float: left;
-            
-             
-}
-
-
-#Medlem ul li { padding: 3px;
+#Medlem ul li { 
+                padding: 3px;
                 font-family: Helvetica;
                 font-weight: bold;
                 text-decoration:none;
                 list-style-type: none;
-                
 }
-
-#meny a {text-decoration:none;
-        font-size: 20px;
+#Medlem img {
+             float: left;
+}
+#meny a {
+         text-decoration:none;
+         font-size: 1.4em;
+		 display: block;
 }
 #meny a:link { color:white; }
 #meny a:visited { color:white; }
@@ -112,88 +95,64 @@
 #meny a:hover { color:white; }
 #meny a.active { color:black; }
 
-#meny li {
-	display:inline;
-	display:block;
-	text-decoration:none;
-	background-image:url(pics/meny-bla.png);
-	width: 150px;
-	height: 35px;
-	background-color: #2E2E83; 
-	margin: 0 auto;
-	margin: 5px;
-	float:left;	
-	text-align: center;
-	font-family: "arial", sans-serif;
-	border:2px solid #2e2e83;
-	padding-top: 2px;
-	
-
-	margin-bottom: 0;
-}
-
-#meny a{
-		font-size: 1.4em;
-		display: block;
-}
 
 #meny ul{
-	height: 32px;
-	max-width: 660px;
-	padding: 0;
-	position: relative;
-	
-	margin: 0 auto;
-
-	text-align: center;	
-	
-	
-}	
-
+    	 height: 32px;
+    	 max-width: 660px;
+    	 padding: 0;
+    	 position: relative;
+    	 margin: 0 auto;
+    	 text-align: center;
+}
 #meny ul li{
         	list-style-type: none;
         	display:inline;	
         	border-top-right-radius: 8px;
         	border-top-left-radius: 8px;
-        	
-	
+}
+#meny li {
+    	  display:inline;
+    	  display:block;
+    	  text-decoration:none;
+    	  background-image:url(pics/meny-bla.png);
+    	  width: 150px;
+    	  height: 35px;
+    	  background-color: #2E2E83; 
+    	  margin: 0 auto;
+    	  margin: 5px;
+    	  float:left;	
+    	  text-align: center;
+    	  font-family: "arial", sans-serif;
+    	  border:2px solid #2e2e83;
+    	  padding-top: 2px;
+    	  margin-bottom: 0;
 }
 
 #meny li:hover {
-	background-image:url(pics/meny-lila.png);
-	background-color: #AB2069;
-   	border-top: 2px solid #AB2069;
-   	border:2px solid #AB2069; 
+            	background-image:url(pics/meny-lila.png);
+            	background-color: #AB2069;
+               	border-top: 2px solid #AB2069;
+               	border:2px solid #AB2069; 
 }
-
 #meny li.active {
-    background-image:url(pics/meny-vit.png);
-	background-color: #4C4C4C;
-   	border-top: 2px solid #4C4C4C;
-   	border:2px solid #4C4C4C; 
-	
-
-    
-}
-#hello {
-    padding-left:40px;
-    padding-right:40px;
+                 background-image:url(pics/meny-vit.png);
+            	 background-color: #4C4C4C;
+                 border-top: 2px solid #4C4C4C;
+               	 border:2px solid #4C4C4C; 
 }
 #content {
-	float: left;
-	width: 98%;
-	height: auto;
-	border: 4px solid #4C4C4C;
-	border-top: 4px solid #4C4C4C;
-	margin-top: 0;
-	margin-left: 5px;
-	border-radius: 5px;
-	background-color: white;
-	padding-bottom: 20px;
+    	  float: left;
+    	  width: 98%;
+    	  height: auto;
+    	  border: 4px solid #4C4C4C;
+    	  border-top: 4px solid #4C4C4C;
+    	  margin-top: 0;
+    	  margin-left: 5px;
+    	  border-radius: 5px;
+    	  background-color: white;
+      	  padding-bottom: 20px;
 }
-
 #content p {
-            
         	padding: 15px;
         	text-align: center;
         	margin-left: 10px;
@@ -201,72 +160,81 @@
             margin-bottom:10px;
             padding-top: 5px;
             padding-bottom: 5px;
-}
-#contact p { text-align: left;
-
+            text-align: left;
 }
 #Spelningar {   
-                margin-left: 10px;
-                margin-top: 150px;
-                float: left;
-                width: auto;
-                padding.right: 15;
-
+             margin-left: 10px;
+             margin-top: 150px;
+             float: left;
+             width: auto;
+             padding-right: 15;
 }
 
-#Spelningar dl {margin-left: 15px;
+#Spelningar dl {
+                margin-left: 15px;
                 padding-top:15px;
                 padding-bottom: 15px;
                 list-style-type: none;
-                
 }
-#Spelningar dl dt dd  { font-style: italic;
-                        font-weight: normal;
-
+#Spelningar dl dt { 
+                   font-weight:bold;
 }
-#Spelningar dl dt { font-weight:bold;
-
+#Spelningar dl dt dd  {
+                       font-style: italic;
+                       font-weight: normal;
 }
-/* lila färger #B7479A (ljus) #AB2069 (mörk) */
-
-
-
-/* Färgsättning */
-
-
-
-
-
-body {
-	background-image: url("pics/collage.jpg");
-	font-family: "arial", sans-serif;
+#samples {
+          margin-left: 15px;
 }
-
-#samples {margin-left: 15px;
-	
-	
-	}
-
 #samples h2{
-	text-align:left;
-	
-	padding: 20px;
+	        text-align:left;
+	        padding: 20px;
 }
-h1 { text-align:center;
-    
+#hello {
+        padding-left:40px;
+        padding-right:40px;
 }
-h2 { text-align:center;
-    
+#slideshow { 
+	        margin: 0 auto;	
+}
+.cycle-slideshow { 
+                  width: 60% 
+}
+.cycle-slideshow img {
+                      width: 100%; height: auto 
+}
+body {
+	  background-image: url("pics/collage.jpg");
+	  font-family: "arial", sans-serif;
+}
+h1 { 
+    text-align:center;
+}
+h2 { 
+    text-align:center;
 }
 
-.center { 	text-align: center; }
-.center a {text-decoration: none; }
-.center a {color: black; }
+.center { 	
+         text-align: center; 
+}
+.center a {
+           text-decoration: none; 
+}
+.center a {
+           color: black; 
+}
 
 @media print {
 
-#header {display: none; }
-#meny {display: none; }
-#länkar {display: none; }
-#content {border: none; }
+#header {
+         display: none; 
+}
+#meny {
+       display: none; 
+}
+#länkar {
+         display: none; 
+}
+#content {
+          border: none; 
 }
