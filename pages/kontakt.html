@@ -1,7 +1,7 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!doctype html>
+<html lang="sv">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta charset="utf-8" />
 <title>kontakt</title>
 <link rel="stylesheet" href="../css/basic.css" />
 </head>
@@ -35,17 +35,20 @@
         </p>
          <div id="contact">
         		<form method="post" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" enctype="text/plain"> 
-                    <p> Namn: </p>
-                    <input type="text" name="namn"/> 
-                    <p> Mailadress: </p>
-                    <input type="text" name="mailadress"/> 
-                    <p> Meddelande: </p>
-                    <textarea name="meddelande" rows="10" cols="50"> 
-                    </textarea> 
-                    <input name="redirect" type="hidden" value="index.html"/> 
-                    <input name="NEXT_URL" type="hidden" value="index.html"/> 
+                    <label for="dittnamn" id="dittnamn"> Namn: </label>
                     <br/>
-                    <input type="submit" value="Skicka"/>                     
+                    <input type="text" id="dittnamn" name="dittnamn"/> 
+                    <br/>
+                    <label for="mailadress" id="mailadress"> Mailadress: </label>
+                    <br/>
+                    <input type="text" id="mailadress" name="mailadress"/> 
+                    <br/>
+                    <label for="meddelande" id="meddelande"> Meddelande: </label>
+                    <br/>
+                    <textarea name="meddelande" id="meddelande" rows="10" cols="50">                  
+                    </textarea>                  
+                    <br/>
+                    <input type="submit" id="skicka" value="Skicka"/>                     
                 </form>                                
             </div>
 
