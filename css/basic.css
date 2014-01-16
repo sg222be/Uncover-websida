@@ -223,7 +223,9 @@ h2 {
 .center a {
            color: black; 
 }
-
+.center p{ 	
+         text-align: center;
+}		  
 @media print {
 
 #header {
@@ -238,3 +240,4 @@ h2 {
 #content {
           border: none; 
 }
+
